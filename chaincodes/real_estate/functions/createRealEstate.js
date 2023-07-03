@@ -33,7 +33,7 @@ class CreateRealEstateWorkload extends WorkloadModuleBase {
     async submitTransaction() {
         this.txIndex += 1;
 
-        const realEstateId = "9000000";
+        const realEstateId = "realEstateIdTest01";
         const ownerId = "1";
         const price = "price1";
         const bed = "bed1";
